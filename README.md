@@ -15,14 +15,14 @@ skivvy install mocha
 
 ## Overview
 
-This package allows you to test JavaScript files using Mocha from within the [Skivvy](https://www.npmjs.com/package/skivvy) task runner.
+This package allows you to test JavaScript files using [Mocha](http://mochajs.org/) from within the [Skivvy](https://www.npmjs.com/package/skivvy) task runner.
 
 
 ## Included tasks
 
 ### `mocha`
 
-Example task
+Test JavaScript files using Mocha
 
 #### Usage:
 
