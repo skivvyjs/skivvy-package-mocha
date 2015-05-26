@@ -1,0 +1,45 @@
+{
+  "name": "@skivvy/skivvy-package-mocha",
+  "version": "0.0.1",
+  "description": "Test JavaScript files using Mocha",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "test"
+  ],
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "eslint index.js lib test && mocha --reporter spec"
+  },
+  "keywords": [
+    "skivvy-package"
+  ],
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "promise": "^7.0.1"
+  },
+  "devDependencies": {
+    "@skivvy/project-base": "latest",
+    "chai": "^2.0.0",
+    "chai-as-promised": "^5.0.0",
+    "eslint": "latest",
+    "mocha": "^2.0.0",
+    "rewire": "^2.3.3",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skivvyjs/skivvy-package-mocha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skivvyjs/skivvy-package-mocha/issues"
+  },
+  "homepage": "https://github.com/skivvyjs/skivvy-package-mocha#readme"
+}
