@@ -22,6 +22,7 @@
   "author": "Tim Kendrick <timkendrick@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "mocha": "^2.0.0",
     "promise": "^7.0.1"
   },
   "devDependencies": {
@@ -29,7 +30,6 @@
     "chai": "^2.0.0",
     "chai-as-promised": "^5.0.0",
     "eslint": "latest",
-    "mocha": "^2.0.0",
     "rewire": "^2.3.3",
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0"
