@@ -1,6 +1,6 @@
 {
   "name": "@skivvy/skivvy-package-mocha",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Test JavaScript files using Mocha",
   "main": "index.js",
   "directories": {
